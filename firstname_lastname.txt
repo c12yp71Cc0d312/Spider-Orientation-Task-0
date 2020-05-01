@@ -1,0 +1,18 @@
+git init - initialize git repo
+touch filename.ext - creates a file "filename.ext"
+git status - to get details of the current branch
+git log - to view commit history
+git log --oneline - commit history short version
+git branch branchname - to create a new branch named 'branchname'
+git branch --list - to get list of branches and the current branch
+git checkout branchname - to switch to branch 'branchname'
+git checkout -b branchname - creates new branch "branchname" and switches to it
+git add file.ext - to add the file 'file.ext' to staging area
+git add . - add all changes to staging.g
+git commit -m "your message" - to commit files from staging area to repo with the message "your message"
+git merge branchname - merge branch "branchname" to current branch
+git branch -m "newbranchname" - rename current branch to "newbranchname"
+git mv filename1.ext filename2.ext - rename the file "filename1.ext" to "filename2.ext"
+git branch -d branchname - delete branch "branchname" locally
+git rm --cached filename.ext - removes file "filename.ext" from staging area
+git mv filename newfilename - renames file "filename" to "newfilename"
