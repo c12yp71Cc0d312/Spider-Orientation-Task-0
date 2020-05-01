@@ -15,3 +15,4 @@ git branch -m "newbranchname" - rename current branch to "newbranchname"
 git mv filename1.ext filename2.ext - rename the file "filename1.ext" to "filename2.ext"
 git branch -d branchname - delete branch "branchname" locally
 git rm --cached filename.ext - removes file "filename.ext" from staging area
+git mv filename newfilename - renames file "filename" to "newfilename"
